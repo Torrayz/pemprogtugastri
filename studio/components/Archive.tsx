@@ -1,7 +1,7 @@
 "use client";
 import {useEffect,useMemo,useState} from "react";
 import Link from "next/link";
-import {ArrowRight,ArrowUpRight,BookOpen,Code2,ExternalLink,Filter,GitBranch, Github, Search,Star} from "lucide-react";
+import {ArrowRight,ArrowUpRight,BookOpen,Code2,ExternalLink,Filter,GitBranch, Search,Star} from "lucide-react";
 import {motion,useReducedMotion} from "motion/react";
 import type {PublicRepository} from "@/lib/github";
 import {projects} from "@/lib/projects";
