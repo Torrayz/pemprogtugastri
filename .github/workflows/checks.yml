@@ -1,0 +1,21 @@
+name: Academic portfolio checks
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check HTML pages and stylesheet
+        run: |
+          test -f index.html
+          test -f home.html
+          test -f about.html
+          test -f profil.html
+          test -f galery.html
+          test -f kontak.html
+          test -f assets/site.css
