@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 740" fill="none">
+<defs>
+  <linearGradient id="chrome" x1="162" y1="86" x2="673" y2="639" gradientUnits="userSpaceOnUse"><stop stop-color="#f5fbff"/><stop offset=".15" stop-color="#82b6ff"/><stop offset=".29" stop-color="#213a75"/><stop offset=".42" stop-color="#dff0ff"/><stop offset=".58" stop-color="#567fe8"/><stop offset=".72" stop-color="#e8f3ff"/><stop offset=".86" stop-color="#3154ad"/><stop offset="1" stop-color="#dff5ff"/></linearGradient>
+  <linearGradient id="edge" x1="108" y1="205" x2="735" y2="485" gradientUnits="userSpaceOnUse"><stop stop-color="#a2faff"/><stop offset=".48" stop-color="#f2faff"/><stop offset="1" stop-color="#8d8dff"/></linearGradient>
+  <linearGradient id="ring" x1="40" y1="356" x2="816" y2="414" gradientUnits="userSpaceOnUse"><stop stop-color="#65baff" stop-opacity="0"/><stop offset=".24" stop-color="#d4f7ff"/><stop offset=".6" stop-color="#87a8ff"/><stop offset="1" stop-color="#8cb6ff" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="0" y="0" width="860" height="740" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="19"/></filter>
+  <filter id="shadow" x="0" y="0" width="860" height="740"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0d60ff" flood-opacity=".42"/></filter>
+</defs>
+<ellipse cx="443" cy="605" rx="222" ry="39" fill="#007aff" opacity=".32" filter="url(#glow)"/>
+<g filter="url(#shadow)" transform="translate(20 -8) rotate(-9 450 350)">
+  <path d="M129 155 754 155 693 270 508 270 349 610 218 610 383 270 85 270Z" fill="url(#chrome)" stroke="url(#edge)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M129 155 754 155 693 270 508 270 349 610 218 610 383 270 85 270Z" stroke="#ffffff" stroke-opacity=".56" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M95 255 689 255M399 275 236 601" stroke="#10234f" stroke-opacity=".65" stroke-width="12"/>
+  <path d="M131 163h600M501 280 336 595" stroke="#fff" stroke-opacity=".86" stroke-width="5"/>
+</g>
+<ellipse cx="427" cy="370" rx="380" ry="105" transform="rotate(-17 427 370)" stroke="url(#ring)" stroke-width="5"/>
+<ellipse cx="427" cy="370" rx="380" ry="105" transform="rotate(-17 427 370)" stroke="#acc9ff" stroke-opacity=".18" stroke-width="18" filter="url(#glow)"/>
+<circle cx="694" cy="283" r="5" fill="#fff"/><circle cx="188" cy="489" r="4" fill="#95e9ff"/>
+</svg>

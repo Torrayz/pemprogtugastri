@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <main className="missing-page"><p className="eyebrow">404 / LOST SIGNAL</p><h1>Halaman ini tidak ditemukan.</h1><p>Mungkin halaman telah berpindah, atau proyek belum dipublikasikan.</p><Link className="button button-primary" href="/">Kembali ke studio</Link></main>; }
