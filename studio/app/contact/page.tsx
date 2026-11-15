@@ -1,6 +1,6 @@
-import type{Metadata}from"next";
-import{ArrowUpRight,GitBranch,MessageCircle,ShieldCheck}from"lucide-react";
-import{Navbar}from"@/components/Navbar";
-import{Footer}from"@/components/Footer";
-export const metadata:Metadata={title:"Contact",description:"Connect with Torrayz through GitHub and explore opportunities for creative development projects."};
-export default function ContactPage(){return <><Navbar/><main className="inner-main"><section className="container inner-hero contact-hero"><p className="eyebrow">CONTACT / START A CONVERSATION</p><h1>LET'S MAKE<br/><span>SOMETHING REAL.</span></h1><p>Punya ide, pertanyaan tentang proyek, atau ingin berdiskusi tentang pengembangan web? Kamu bisa menghubungi saya melalui GitHub.</p><a className="button button-lime" href="https://github.com/Torrayz" target="_blank" rel="noopener noreferrer"><GitBranch size={17}/> Open GitHub profile <ArrowUpRight size={17}/></a></section><section className="container contact-cards"><article><GitBranch size={30}/><h2>GitHub</h2><p>Lihat repository dan aktivitas pengembangan yang dipublikasikan.</p><a className="text-link" href="https://github.com/Torrayz" target="_blank" rel="noopener noreferrer">github.com/Torrayz <ArrowUpRight size={16}/></a></article><article><MessageCircle size={30}/><h2>Project discussions</h2><p>Diskusi atau pertanyaan teknis bisa diajukan lewat repository terkait.</p><a className="text-link" href="https://github.com/Torrayz?tab=repositories" target="_blank" rel="noopener noreferrer">Explore repository list <ArrowUpRight size={16}/></a></article><article><ShieldCheck size={30}/><h2>Privacy by default</h2><p>Portfolio ini tidak mengumpulkan alamat email pengunjung dan tidak menampilkan data repository privat.</p></article></section></main><Footer/></>}
+import type {Metadata} from "next";
+import {Navbar} from "@/components/Navbar";
+import {Footer} from "@/components/Footer";
+import {ContactExperience} from "@/components/ContactExperience";
+export const metadata:Metadata={title:"Contact / Start a Conversation",description:"Contact Torrayz privately about web development, technology projects, and creative digital experiences."};
+export default function ContactPage(){return <><Navbar/><ContactExperience/><Footer/></>}

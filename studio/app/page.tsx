@@ -5,4 +5,6 @@ import {ScrollStory} from "@/components/ScrollStory";
 import {Experiments} from "@/components/Experiments";
 import {Archive} from "@/components/Archive";
 import {Footer} from "@/components/Footer";
-export default function HomePage(){return <><Navbar/><main><Hero/><SelectedWork/><ScrollStory/><Experiments/><Archive/></main><Footer/></>}
+import {PointerAura} from "@/components/PointerAura";
+import {MarqueeRibbon} from "@/components/MarqueeRibbon";
+export default function HomePage(){return <><Navbar/><PointerAura/><main><Hero/><MarqueeRibbon/><SelectedWork/><ScrollStory/><Experiments/><Archive/></main><Footer/></>}
